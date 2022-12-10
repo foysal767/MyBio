@@ -40,7 +40,7 @@ const Home = () => {
                             </span>
                         </h1>
                         <button src='' className="btn btn-primary">
-                            <a href="https://drive.google.com/file/d/1sZnr1HbqgzLi482xtCGwyCz4b1sQ6yKA/view?usp=sharing"> My Resume</a>
+                            <a href="https://drive.google.com/file/d/1sZnr1HbqgzLi482xtCGwyCz4b1sQ6yKA/view?usp=sharing" target='_blank' > My Resume</a>
                         </button>
 
                     </div>
