@@ -2,6 +2,7 @@ import React from 'react';
 import portfolioImg from '../../../assets/images/portfolioImg.png';
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-router-dom';
+import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
@@ -14,7 +15,6 @@ const Home = () => {
                         alt=''
                     />
                     <div className='text-left '>
-                        <h1 className="text-2xl font-bold">Welcome to My World!</h1>
                         <h1 className='text-4xl font-semibold my-2'>Hi! I'm
                             <br />
                             <span className='text-pink-600 font-bold'>Mohammad Foysal Uddin</span>
@@ -39,13 +39,13 @@ const Home = () => {
                                 }
                             </span>
                         </h1>
-                        <button src='' className="btn btn-primary">
-                            <a href="https://drive.google.com/file/d/1sZnr1HbqgzLi482xtCGwyCz4b1sQ6yKA/view?usp=sharing" target='_blank' > My Resume</a>
+                        <button src='' className="btn btn-success text-white">
+                            <a href="https://drive.google.com/file/d/1sZnr1HbqgzLi482xtCGwyCz4b1sQ6yKA/view?usp=sharing" target="_blank" >My Resume</a>
                         </button>
-
                     </div>
                 </div>
             </div>
+            <Skills></Skills>
         </div>
     );
 };
