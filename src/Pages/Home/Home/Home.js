@@ -1,8 +1,8 @@
 import React from 'react';
 import portfolioImg from '../../../assets/images/portfolioImg.png';
 import Typewriter from 'typewriter-effect';
-import { Link } from 'react-router-dom';
 import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
@@ -11,10 +11,10 @@ const Home = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img
                         src={portfolioImg}
-                        className="max-w-sm rounded-lg shadow-2xl"
+                        className="max-w-sm rounded-lg shadow-2xl my-4"
                         alt=''
                     />
-                    <div className='text-left '>
+                    <div className='text-left text-gray-400 my-4'>
                         <h1 className='text-4xl font-semibold my-2'>Hi! I'm
                             <br />
                             <span className='text-pink-600 font-bold'>Mohammad Foysal Uddin</span>
@@ -46,6 +46,7 @@ const Home = () => {
                 </div>
             </div>
             <Skills></Skills>
+            <Projects></Projects>
         </div>
     );
 };
