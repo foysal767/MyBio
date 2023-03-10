@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import portfolioImg from '../../../assets/images/portfolioImg.png';
 import Typewriter from 'typewriter-effect';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
+import { useQuery } from '@tanstack/react-query';
 
 const Home = () => {
+    
     return (
         <div>
             <div className="hero min-h-screen">
@@ -39,7 +41,7 @@ const Home = () => {
                                 }
                             </span>
                         </h1>
-                        <button src='' className="btn btn-success text-white">
+                        <button className="btn btn-success text-white">
                             <a href="https://drive.google.com/file/d/1sZnr1HbqgzLi482xtCGwyCz4b1sQ6yKA/view?usp=sharing" target="_blank" >My Resume</a>
                         </button>
                     </div>
